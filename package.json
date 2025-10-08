@@ -1,0 +1,30 @@
+{
+  "name": "flux-wallet",
+  "version": "1.0.0",
+  "description": "Non-custodial crypto wallet for Bitcoin and Ethereum (Node.js CLI)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wallet",
+    "bitcoin",
+    "ethereum",
+    "crypto",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.4",
+    "axios": "^1.12.2",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^7.0.0",
+    "chart.js": "^4.5.0",
+    "ethers": "^5.8.0",
+    "inquirer": "^12.9.6",
+    "react-chartjs-2": "^5.3.0"
+  }
+}
